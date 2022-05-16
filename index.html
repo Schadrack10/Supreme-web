@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+         Supreme Buildit | Home
+    </title>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+<nav id = "lg-width-nav" >
+<div id="nav-grid-top">
+  <a href="./index.html">
+     <div id="logo-container">
+      <img src="./img/logo.png" id="logo" alt="">
+    </div>
+   </a>
+</div>
+
+<div id="nav-grid-bottom">
+ <ul class="nav-list">
+
+     <li style="margin-left:20px; margin-right: 10px;" class="dropdown">
+          <a class="nav-link" href="./services.html">
+               Services
+           </a>
+    </li>
+
+     <li style="margin-left:20px; margin-right: 10px;" class="dropdown">
+          <a class="nav-link" href="./calculators.html">
+               Calculators
+           </a>
+    </li>
+     
+     <li>
+       <a class="nav-link" href="./promotions.html">Promotions</a>
+     </li>
+
+     
+       <li>
+        <a class="nav-link" href="./education.html">Edu Centre</a>
+      </li>
+
+     <li>
+       <a class="nav-link" href="./about_us.html">About Us</a>
+     </li>
+
+     <li>
+      <a class="nav-link" href="./contact.html">Contact Us</a>
+    </li>
+
+    <li id="social-media-icons">
+      <a href="https://www.facebook.com/builditsupreme" class="social-media-icon" target="_blank"><img src="./cons/facebook.svg" alt="" ></a>
+</li>
+ </ul>
+
+ </div>
+</nav>
+
+<nav class="navbar navbar-inverse" style="height:50px" id = "sm-width-nav">
+<div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand" href="./index.html">
+      <img src="./img/logo.png" style = "width:40px" alt="">
+    </a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="nav navbar-nav">
+      <li class="active">
+      <a href="https://matus.rapidtrade.com/#/home">Products</a></li>
+      <li class="active"><a href="./services.html">Services</a></li>
+      <li class="active"><a href="./calculators.html">Calculators</a></li>
+      <li class="active"><a href="./promotions.html">Promotions</a></li>
+      <li class="active"><a href="./education.html">Edu Centre</a></li>
+      <li class="active"><a href="./about_us.html">About Us</a></li>
+      <li class="active"><a href="./contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<style>
+  .pop-up-wrapper-1{
+    position: fixed;
+    padding:10px;
+    bottom:0;
+    top:5;
+    z-index:100;
+    width:100%;
+    margin:auto;
+    background: #da1a32;
+    height:auto;
+  }
+  .pop-up-wrapper{
+    padding:10px;
+    bottom:0;
+    top:5;
+    z-index:105;
+    width:100%;
+    margin:auto;
+    background: #da1a32;
+    height:auto;
+  }
+  .pop-up-content span {
+    flex:11;
+  }
+  .hidden{
+    display: none;
+    transition: 100ms;
+  }
+  .pop-up-content{
+    color: white;
+    font-size: 20px;
+    padding-left:25px;
+    padding-top:10px;
+    display:flex;
+    width:100%;
+    height:100%;
+  }
+  #close-1 , #close-2{
+    background: transparent;
+    border:none;
+    width:35px;
+    height:15px;
+    margin-right: 10px;
+  }
+</style>
+ <div class="pop-up-wrapper-1 d-flex">
+    <p class="pop-up-content d-flex align-content-center">
+      <span class="d-flex align-content-center">
+        Please note that these offers are only available until the 31th of May 2022.
+      </span>
+      <button id="close-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+          <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+        </svg>
+    </button>
+    </p>
+  </div> 
+    <div class="jumbotron main-jumbo" style="padding: 0 !important;">
+        <div class="container-fluid jumbotron-content-container" style="padding: 0!important;">
+  <div class="banner-swiper-container">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide"><img src="./img/Frame 3.jpg" alt=""></div> 
+       <div class="swiper-slide"><img src="./img/slide1.jpg" alt=""></div>
+       <div class="swiper-slide"><img src="./img/slide3.png" alt=""></div>
+       <div class="swiper-slide"><img src="./img/slide4.png" alt=""></div>
+
+     </div>
+     
+     <div class="swiper-pagination"></div>
+   </div>
+
+        </div>
+    </div>
+
+ <div class="services-grid row">
+       <div class="col-md-4 services-grid-child services-grid-child-1">
+             <div class="service-circles-wrapper">
+                    <div class="service-cirlce">
+                       <img src="./img/brick-icon-inv.png" alt=""> 
+                    </div>
+                    <div class="service-cirlce">
+                         <img src="./img/paint-icon-inv.png" alt="">   
+                    </div>
+                    <div class="service-cirlce">
+                         <img src="./img/plumbing-icon-inv.png" alt="">
+                    </div>
+                    <div class="service-cirlce">
+                         <img src="./img/electrical-icon-inv.png" alt="">
+                    </div>
+                    <div class="service-cirlce">
+                         <img src="./img/timber-icon-inv.png" alt="">
+                    </div>
+             </div>
+             <h2 class="large-text">Everything to make home building simple</h2>
+       </div>
+
+      
+      
+
+       <div class="col-md-8 services-grid-child services-grid-child-2 service-card-wrapper">
+              <div class="service-card">
+                   <img src="./img/Building-materials-banner.png" alt="" class="service-card-img">
+                   <div class="card-content">
+                        <img src="./img/building-materials-icon.png" alt="">
+                        <h2 class="large-text red-text">
+                              Building Materials
+                        </h2>
+                   </div>
+              </div>
+              <div class="service-card">
+                   <img src="./img/Roofing-banner.png" alt="" class="service-card-img">
+                   <div class="card-content">
+                        <img src="./img/roofing-icon.png" alt="">
+                        <h2 class="large-text red-text">
+                              Roofing
+                        </h2>
+                   </div>
+              </div>
+              <div class="service-card">
+                   <img src="./img/Tools-banner.png" alt="" class="service-card-img">
+                   <div class="card-content">
+                        <img src="./img/tools-icon.png" alt="">
+                         <h2 class="large-text red-text">
+                              Tools
+                        </h2>
+                   </div>
+              </div>
+
+       </div>
+ </div>
+
+
+
+    <main class="container-fluid">
+
+<h2 class="section-header">A cut above the rest</h2>  
+
+<div class="product-row">
+           <!-- Swiper -->
+      <div class="product-item">
+            <div  class="item-block-grid item-block-grid-1">
+                 <img class="product-img reset-height" src="./products/01.png" alt="">
+            </div>
+            <div class="item-block-grid item-block-grid-2">INGCO ANGLE GRINDER - 2400W 230MM</div>
+            <div class="item-block-grid item-block-grid-3">R1699.99</div>
+      </div>
+      <div class="product-item">
+            <div class="item-block-grid item-block-grid-1">
+          <img class="product-img reset-height" src="./products/02.png" alt="">
+            </div>
+            <div class="item-block-grid item-block-grid-2">INGCO ROTARY HAMMER DRILL - 1500W </div>
+            <div class="item-block-grid item-block-grid-3">R1799.99</div>
+      </div>
+      
+      <div class="product-item">
+            <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/03.png" alt="">
+            </div>
+            <div class="item-block-grid item-block-grid-2">INGCO JIG SAW - 570W</div>
+            <div class="item-block-grid item-block-grid-3">R749.99</div>
+      </div>
+      <div class="product-item">
+            <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/04.png" alt="">
+            </div>
+            <div class="item-block-grid item-block-grid-2">DK GAS HEATER </div>
+            <div class="item-block-grid item-block-grid-3">R1469.99</div>
+      </div>
+
+</div>
+
+
+
+<div class="product-row">
+
+<div class="product-item">
+      <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/05.png" alt="">
+      </div>
+      <div class="item-block-grid item-block-grid-2">
+        TOILET SEAT - MELAMINE WOD WHITE
+          </div>
+      <div class="item-block-grid item-block-grid-3">R299.99</div>
+</div>
+<div class="product-item">
+      <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/06.png" alt="">
+      </div>
+      <div class="item-block-grid item-block-grid-2">
+        SHOWER DOOR SQUARE PIVOT - 900X900X1900MM NATURAL
+      </div>
+      <div class="item-block-grid item-block-grid-3">R3299.00 </div>
+</div>
+
+<div class="product-item">
+      <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/07.png" alt="">
+      </div>
+      <div class="item-block-grid item-block-grid-2">
+        BELLA ELECTRIC SHOWER - INSTANT HOT WATER
+      </div>
+      <div class="item-block-grid item-block-grid-3">R1007.76 </div>
+</div>
+
+<div class="product-item">
+      <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/08.png" alt="">
+      </div>
+      <div class="item-block-grid item-block-grid-2">
+        SHOWER DOOR QUADRANT - 900X900X1900MM NATURAL
+      </div>
+      <div class="item-block-grid item-block-grid-3">
+        R1799.99
+      </div>
+</div>
+
+</div>
+
+
+<div class="product-row">
+     <!-- Swiper -->
+<div class="product-item">
+      <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/09.png" alt="">
+      </div>
+      <div class="item-block-grid item-block-grid-2">
+        SPRAY GUN - 1.4MM NOZZLE PLASTIC CUP
+      </div>
+      <div class="item-block-grid item-block-grid-3">
+        R359.00
+      </div>
+</div>
+<div class="product-item">
+      <div class="item-block-grid item-block-grid-1">
+          <img class="product-img" src="./products/10.png" alt="">
+      </div>
+      <div class="item-block-grid item-block-grid-2">
+        MAT EXTENSION REEL - MTS PVC 20MX 1.0 - DOUBLE PLUG
+          </div>
+      <div class="item-block-grid item-block-grid-3">
+        R949.00
+      </div>
+</div>
+
+<div class="product-item">
+     <div class="item-block-grid item-block-grid-1">
+         <img class="product-img" src="./products/11.png" alt="">
+     </div>
+     <div class="item-block-grid item-block-grid-2">
+      VS UBBER HOE - 8MMX10M WITH COUPLERS
+     </div>
+     <div class="item-block-grid item-block-grid-3">
+      R499.00
+     </div>
+</div>
+<div class="product-item">
+     <div class="item-block-grid item-block-grid-1">
+         <img class="product-img" src="./products/12.png" alt="">
+     </div>
+     <div class="item-block-grid item-block-grid-2">
+      WCM PLASTER PRIMER AND SEALER - 20LT
+     </div>
+     <div class="item-block-grid item-block-grid-3">
+      R549.99
+     </div>
+</div>
+
+</div>
+
+
+<div class="product-row">
+  <!-- Swiper -->
+<div class="product-item">
+   <div class="item-block-grid item-block-grid-1">
+       <img class="product-img" src="./products/13.png" alt="">
+   </div>
+   <div class="item-block-grid item-block-grid-2">
+    WOOD VARNISH - CLEAR 1LT
+   </div>
+   <div class="item-block-grid item-block-grid-3">
+     R159.99
+   </div>
+</div>
+<div class="product-item">
+   <div class="item-block-grid item-block-grid-1">
+       <img class="product-img" src="./products/14.png" alt="">
+   </div>
+   <div class="item-block-grid item-block-grid-2">
+    UNIVERSAL UNDERCOAT - WHITE 5LT
+       </div>
+   <div class="item-block-grid item-block-grid-3">
+     R439.00
+   </div>
+</div>
+
+<div class="product-item">
+  <div class="item-block-grid item-block-grid-1">
+      <img class="product-img" src="./products/15.png" alt="">
+  </div>
+  <div class="item-block-grid item-block-grid-2">GAS GEYSER - 10LT TOTAI</div>
+  <div class="item-block-grid item-block-grid-3">R3299.99</div>
+</div>
+
+<div class="product-item">
+  <div class="item-block-grid item-block-grid-1">
+      <img class="product-img" src="./products/16.png" alt="">
+  </div>
+  <div class="item-block-grid item-block-grid-2">KWIKOT BLANKET - PLUMBEASY W/FOIL</div>
+  <div class="item-block-grid item-block-grid-3">R279.00</div>
+</div>
+
+</div>
+
+<div class="product-row">
+  <!-- Swiper -->
+<div class="product-item">
+   <div class="item-block-grid item-block-grid-1">
+       <img class="product-img" src="./products/17.png" alt="">
+   </div>
+   <div class="item-block-grid item-block-grid-2">
+    DURAN FIBRE COAT - GREY 5LT
+   </div>
+   <div class="item-block-grid item-block-grid-3">
+     R279.00
+   </div>
+</div>
+<!-- <div class="product-item">
+   <div class="item-block-grid item-block-grid-1">
+       <img class="product-img" src="./products/14.png" alt="">
+   </div>
+   <div class="item-block-grid item-block-grid-2">
+    UNIVERSAL UNDERCOAT - WHITE 5LT
+       </div>
+   <div class="item-block-grid item-block-grid-3">
+     R439.00
+   </div>
+</div>
+
+<div class="product-item">
+  <div class="item-block-grid item-block-grid-1">
+      <img class="product-img" src="./products/15.png" alt="">
+  </div>
+  <div class="item-block-grid item-block-grid-2">GAS GEYSER - 10LT TOTAI</div>
+  <div class="item-block-grid item-block-grid-3">R3299.99</div>
+</div>
+
+<div class="product-item">
+  <div class="item-block-grid item-block-grid-1">
+      <img class="product-img" src="./products/16.png" alt="">
+  </div>
+  <div class="item-block-grid item-block-grid-2">KWIKOT BLANKET - PLUMBEASY W/FOIL</div>
+  <div class="item-block-grid item-block-grid-3">R279.00</div>
+</div> -->
+
+</div>
+
+
+</main>
+
+    </div>
+
+    <div class="pop-up-wrapper d-flex">
+      <p class="pop-up-content d-flex align-content-center">
+        <span class="d-flex align-content-center">
+          Please note that these offers are only available until the 31th of May 2022.
+        </span>
+        <button id="close-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+          </svg>
+      </button>
+      </p>
+    </div> 
+    <!-- <br> -->
+    <footer>
+     <br>
+       <ul>
+           <li><b>Tel: </b> 011 673 1120</li>
+           <li><b>Operating Hours: </b> Mon-Fri | 7:30 AM - 5:00 PM</li>
+           <li><b style="visibility: hidden;">Operating Hours : </b> Sat | 7:30 AM - 1:00 PM</li>
+           <li><b>Address: </b> Cnr Main Road and Millar Street, Martindale</li>
+           <li><b>Email: </b> info@supreme.co.za</li>
+       </ul>
+       <hr/>
+
+       <div id="footer-social-media-icons">
+        <a href="https://www.facebook.com/builditsupreme" class="social-media-icon" target="_blank"><img src="./cons/facebook.svg" alt="" ></a>
+       </div>
+
+
+
+    <div class="row privacy">
+      Copyright © 2020 Supreme Buildit. All rights reserved
+    </div>
+    
+    </footer>
+<script>
+      let close = document.querySelector("#close-1");
+      let close_1 = document.querySelector("#close-2");
+      let popup_wrapper = document.querySelector(".pop-up-wrapper-1")
+      close.addEventListener('click',()=>{
+        popup_wrapper.classList.toggle('hidden')
+        popup_wrapper.classList.toggle('pop-up-wrapper')
+      })
+      close_1.addEventListener('click',()=>{
+        popup_wrapper.classList.toggle('hidden')
+        popup_wrapper.classList.toggle('pop-up-wrapper')
+      })
+    </script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script>
+
+      const productItems = document.querySelectorAll(".product-item");
+      
+          
+            for(let item of productItems)
+                {
+                     item.addEventListener('click', ()=>{
+                          location.href = "./promotions.html"
+                     })
+                }
+
+        var banner_swiper = new Swiper('.banner-swiper-container', {
+      spaceBetween: 30,
+      slidesPerView:1,
+      loop: true,
+     autoplay: {
+          delay: 6000,
+     },
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+    });
+        var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      slidesPerView:4,
+      loop: true,
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+    });
+ </script>
+
+</body>
+</html>

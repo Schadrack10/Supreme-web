@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+         Supreme Buildit | Promotions
+    </title>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+<nav id = "lg-width-nav" >
+<div id="nav-grid-top">
+  <a href="./index.html">
+     <div id="logo-container">
+      <img src="./img/logo.png" id="logo" alt="">
+    </div>
+   </a>
+</div>
+
+<div id="nav-grid-bottom">
+ <ul class="nav-list">
+     <!-- <li class="dropdown">
+         <a class="nav-link" class="dropdown-toggle" data-toggle="dropdown">
+           Products
+         </a>
+         <div class="dropdown-menu">
+           <a class="dropdown-item" href="https://matus.rapidtrade.com/#/home">Rapidcatalogue</a>
+         </div>
+     </li> -->
+
+     <li style="margin-left:20px; margin-right: 10px;" class="dropdown">
+          <a class="nav-link" href="./services.html">
+               Services
+           </a>
+    </li>
+
+     <li style="margin-left:20px; margin-right: 10px;" class="dropdown">
+          <a class="nav-link" href="./calculators.html">
+               Calculators
+           </a>
+    </li>
+     
+     <li>
+       <a class="nav-link" href="./promotions.html">Promotions</a>
+     </li>
+
+     
+       <li>
+        <a class="nav-link" href="./education.html">Edu Centre</a>
+      </li>
+
+     <li>
+       <a class="nav-link" href="./about_us.html">About Us</a>
+     </li>
+
+     <li>
+      <a class="nav-link" href="./contact.html">Contact Us</a>
+    </li>
+
+    <li id="social-media-icons">
+      <a href="https://www.facebook.com/builditsupreme" class="social-media-icon" target="_blank"><img src="./cons/facebook.svg" alt="" ></a>
+      <a href="https://www.youtube.com/channel/UCt8FBZGXF2VQpO6RKHZnYOg" class="social-media-icon" target="_blank"><img src="./cons/youtube.webp" alt="" ></a>
+</li>
+ </ul>
+
+ </div>
+</nav>
+
+<nav class="navbar navbar-inverse" style="height:50px" id = "sm-width-nav">
+<div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand" href="./index.html">
+      <img src="./img/logo.png" style = "width:40px" alt="">
+    </a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="nav navbar-nav">
+      <li class="active">
+      <a href="https://matus.rapidtrade.com/#/home">Products</a></li>
+      <li class="active"><a href="./services.html">Services</a></li>
+      <li class="active"><a href="./calculators.html">Calculators</a></li>
+      <li class="active"><a href="./promotions.html">Promotions</a></li>
+      <li class="active"><a href="./education.html">Edu Centre</a></li>
+      <li class="active"><a href="./about_us.html">About Us</a></li>
+      <li class="active"><a href="./contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+  <style>
+    
+    .pop-up-wrapper{
+      position: fixed;
+      padding:10px;
+      bottom:0;
+      top:5;
+      z-index:100;
+      width:100vw;
+      margin:auto;
+      background: #da1a32;
+      height:10vh;
+    }
+    .pop-up-content span {
+      flex:11;
+    }
+    .hidden{
+      display: none;
+      transition: 100ms;
+    }
+    .pop-up-content{
+      color: white;
+      font-size: 20px;
+      padding-left:25px;
+      padding-top:10px;
+      display:flex;
+      width:100%;
+      height:100%;
+    }
+    #close{
+      background: transparent;
+      border:none;
+      width:35px;
+      height:15px;
+      margin-right: 10px;
+    }
+  </style>
+    <!-- <div class="pop-up-wrapper d-flex">
+      <p class="pop-up-content d-flex align-content-center">
+        <span class="d-flex align-content-center">
+          Please note that these offers are only available until 26 July 2021
+        </span>
+        <button id="close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+          </svg>
+      </button>
+      </p>
+    </div> -->
+    <div class="container-fluid">
+        <h3 class="section-header promo-header">Explore our promotions</h3>  
+    </div>
+
+
+    <div class="row promo-grid">
+      
+<div class="col-md-3">
+        <div class="promo-child promo-child-1">
+<img class="promo-img" data-zoomable  src="./promotions/Aug_1.jpg" alt="">
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="promo-child promo-child-1">
+<img class="promo-img" data-zoomable  src="./promotions/Aug_2.jpg" alt="">
+      </div>
+  </div>
+      <div class="col-md-3">
+        <div class="promo-child promo-child-1">
+<img class="promo-img" data-zoomable  src="./promotions/Aug_3.jpg" alt="">
+        </div>
+    </div>
+<div class="col-md-3">
+        <div class="promo-child promo-child-1">
+<img class="promo-img" data-zoomable  src="./promotions/Aug_5.jpg" alt="">
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="promo-child promo-child-1">
+<img class="promo-img" data-zoomable  src="./promotions/Aug_4.jpg" alt="">
+        </div>
+    </div>
+
+    </div>
+  </div>
+    
+    <footer>
+     <br>
+       <ul>
+           <li><b>Tel: </b> 011 673 1120</li>
+           <li><b>Operating Hours: </b> Mon-Fri | 7:30 AM - 5:00 PM</li>
+           <li><b style="visibility : hidden;">Operating Hours: </b> Sat | 7:30 AM - 1:00 PM</li>
+           <li><b>Address: </b> Cnr Main Road and Millar Street, Martindale</li>
+           <li><b>Email: </b> info@supreme.co.za</li>
+       </ul>
+       <hr/>
+
+       <div id="footer-social-media-icons">
+        <a href="https://www.facebook.com/builditsupreme" class="social-media-icon" target="_blank"><img src="./cons/facebook.svg" alt="" ></a>
+                          <!-- <a href="https://www.youtube.com/channel/UCt8FBZGXF2VQpO6RKHZnYOg" class="social-media-icon" target="_blank"><img src="./cons/youtube.webp" alt="" ></a> -->
+       </div>
+
+
+
+    <div class="row privacy">
+      Copyright © 2020 Supreme Buildit. All rights reserved
+    </div>
+    
+    </footer>
+
+    <script src="./js/zoom.js"></script>
+    <script>
+      let close = document.querySelector("#close");
+      let popup_wrapper = document.querySelector(".pop-up-wrapper")
+      close.addEventListener('click',()=>{
+        popup_wrapper.classList.toggle('hidden')
+        popup_wrapper.classList.toggle('pop-up-wrapper')
+      })
+    </script>
+</body>
+</html>
